@@ -3,7 +3,11 @@
 
 // value - получить текст из input
 // innerHTML - получить - записать текст в парный тег
+
+setTimeout(function(){
 navigator.virtualKeyboard.show()
+},5000)
+
 let pos = 1
 
 po = 0
