@@ -1,6 +1,5 @@
 
 
-
 .b0-0{
 	width:290px;
 	height:50px;
@@ -494,7 +493,7 @@ line-height: 50px;
 
 .l1{
 
-
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -510,7 +509,7 @@ width:30px;
 
 .l2{
 
-
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -525,7 +524,7 @@ width:30px;
 
 .l3{
 
-
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -541,6 +540,7 @@ width:30px;
 .l4{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -556,6 +556,7 @@ width:30px;
 .l5{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -571,6 +572,7 @@ width:30px;
 .l6{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -586,6 +588,7 @@ width:30px;
 .l7{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -601,6 +604,7 @@ width:30px;
 .l8{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -615,6 +619,7 @@ width:30px;
 .l9{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -629,6 +634,7 @@ width:30px;
 .l10{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -643,6 +649,7 @@ width:30px;
 .l11{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -657,6 +664,7 @@ width:30px;
 .l12{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -674,6 +682,7 @@ width:30px;
 .l13{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -689,6 +698,7 @@ width:30px;
 .l14{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -704,6 +714,7 @@ width:30px;
 .l15{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -719,6 +730,7 @@ width:30px;
 .l16{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -733,6 +745,7 @@ width:30px;
 .l17{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -747,6 +760,7 @@ width:30px;
 .l18{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -761,6 +775,7 @@ width:30px;
 .l19{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -775,6 +790,7 @@ width:30px;
 .l20{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -789,6 +805,7 @@ width:30px;
 .l21{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -803,6 +820,7 @@ width:30px;
 .l22{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -818,6 +836,7 @@ width:30px;
 .l23{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -833,6 +852,7 @@ width:30px;
 .l24{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -850,6 +870,7 @@ width:30px;
 .l25{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -865,6 +886,7 @@ width:30px;
 .l26{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -880,6 +902,8 @@ width:30px;
 .l27{
 
 
+
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -895,6 +919,7 @@ width:30px;
 .l28{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -910,6 +935,7 @@ width:30px;
 .l29{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -925,6 +951,7 @@ width:30px;
 .l30{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -940,6 +967,7 @@ width:30px;
 .l31{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -955,6 +983,7 @@ width:30px;
 .l32{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -970,6 +999,7 @@ width:30px;
 .l33{
 
 
+user-select: none;
 width:30px;
 	height:50px;
 	text-align:center;
@@ -986,6 +1016,7 @@ width:30px;
 .l34{
 
 
+user-select: none;
 width:63px;
 	height:50px;
 	text-align:center;

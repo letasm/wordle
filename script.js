@@ -3,6 +3,7 @@
 
 // value - получить текст из input
 // innerHTML - получить - записать текст в парный тег
+navigator.virtualKeyboard.show()
 let pos = 1
 
 po = 0
@@ -105,6 +106,7 @@ addEventListener("keydown", function(event) {
 
             {
                 document.getElementsByClassName('final')[0].innerText = 'ЗАГАДАННОЕ СЛОВО - ' + word
+
                 document.getElementsByClassName('b0-0')[0].innerText = 'ЗАГАДАЙ СЛОВО'
                 document.getElementsByClassName('b0-0')[0].style.background = '#e6e6fa'
                 document.getElementsByClassName('b0-1')[0].style.background = '#e6e6fa'
@@ -141,11 +143,11 @@ addEventListener("keydown", function(event) {
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                           
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#ededed';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                         }
 
@@ -157,11 +159,11 @@ addEventListener("keydown", function(event) {
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                           
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#ffed94';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                         }
 
@@ -171,11 +173,11 @@ addEventListener("keydown", function(event) {
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#c9f2c9';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                           
 
                         }
                     }
@@ -459,11 +461,11 @@ if (po > 0 && pos == 6)
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#ededed';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                           
 
                         }
 
@@ -475,11 +477,11 @@ if (po > 0 && pos == 6)
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#ffed94';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                         }
 
@@ -489,11 +491,11 @@ if (po > 0 && pos == 6)
                         )
 
                         {
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                           
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#c9f2c9';
 
-                            console.log(document.getElementsByClassName('l' + l)[0].style.background);
+                            
 
                         }
                     }
