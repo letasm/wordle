@@ -45,7 +45,7 @@ addEventListener("keydown", function(event) {
                 document.getElementsByClassName('b' + po + '-' + pos)[0].innerText = '';
                 pos -= 1;
             }
-        } else if ((pos == 6 && event.keyCode == 13) || word.length=5)
+        } else if ((pos == 6 && event.keyCode == 13) || word.length==5)
 
         {
             word = (document.getElementsByClassName('b0-1')[0].innerText +
@@ -533,3 +533,6 @@ if (po > 0 && pos == 6)
     pos += 1
 }
 
+var wordd = document.querySelector('.word') // Если добавили класс whats-app-link
+
+wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
