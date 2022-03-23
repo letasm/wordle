@@ -534,6 +534,6 @@ if (po > 0 && pos == 6)
 }
 
 var wordd = document.querySelector('.word') // Если добавили класс whats-app-link
-wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word[0])
+wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
 //wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word[0].charCodeAt(0)+'-' +word[1].charCodeAt(0)+'-'+ word[2].charCodeAt(0)+'-'+ word[3].charCodeAt(0)+'-'+ word[4].charCodeAt(0))
     
