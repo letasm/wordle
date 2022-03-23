@@ -525,11 +525,8 @@ if (po > 0 && pos == 6)
     pos += 1
 }
 
-var whatsAppLink = document.querySelector('.whats-app-link') // Если добавили класс whats-app-link
-
-whatsAppLink.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
 
 word2=(document.URL)
 console.log(word2.substr(word.length-8,6))
-
+ document.getElementsByClassName('b0-00')[0].innerText=word2.substr(word.length-8,6)
 
