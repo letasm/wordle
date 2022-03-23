@@ -15,9 +15,12 @@ po = 0
 let i = 0
 word='aaa'
 
-word2=word2.substr(word.length-8,6)
 
-if word2=='rdle/'
+
+tt=(document.URL)
+word2=tt.substr(tt.length-8,6)
+
+if (word2=='rdle/')
 word=''
 else
 word=word2
@@ -530,8 +533,4 @@ if (po > 0 && pos == 6)
     pos += 1
 }
 
-
-
-
- document.getElementsByClassName('b0-00')[0].innerText=word2.substr(word.length-8,6)
 
