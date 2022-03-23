@@ -4,9 +4,7 @@
 // value - получить текст из input
 // innerHTML - получить - записать текст в парный тег
 
-setTimeout(function(){
-navigator.virtualKeyboard.show()
-})
+
 
 let pos = 1
 
@@ -18,7 +16,7 @@ word='aaa'
 
 
 tt=(document.URL)
-word2=tt.substr(tt.length-8,6)
+word2=tt.substr(tt.length-5,5)
 console.log(word2)
 
 if (word2=='rdle/')
