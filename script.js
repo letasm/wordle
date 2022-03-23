@@ -15,7 +15,12 @@ po = 0
 let i = 0
 word='aaa'
 
+word2=word2.substr(word.length-8,6)
 
+if word2=='rdle/'
+word=''
+else
+word=word2
 
 addEventListener("keydown", function(event) {
 
@@ -37,7 +42,7 @@ addEventListener("keydown", function(event) {
                 document.getElementsByClassName('b' + po + '-' + pos)[0].innerText = '';
                 pos -= 1;
             }
-        } else if (pos == 6 && event.keyCode == 13)
+        } else if ((pos == 6 && event.keyCode == 13) || word.length=5)
 
         {
             word = (document.getElementsByClassName('b0-1')[0].innerText +
@@ -526,7 +531,7 @@ if (po > 0 && pos == 6)
 }
 
 
-word2=(document.URL)
-console.log(word2.substr(word.length-8,6))
+
+
  document.getElementsByClassName('b0-00')[0].innerText=word2.substr(word.length-8,6)
 
