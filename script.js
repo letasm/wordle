@@ -19,6 +19,7 @@ word='aaa'
 
 tt=(document.URL)
 word2=tt.substr(tt.length-8,6)
+console.log(word2)
 
 if (word2=='rdle/')
 word=''
