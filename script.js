@@ -22,7 +22,18 @@ console.log(word2)
 if (word2=='rdle/')
 word=''
 else
-word=word2
+{word=word2
+document.getElementsByClassName('b0-0')[0].innerText = 'СЛОВО ЗАГАДАНО'
+document.getElementsByClassName('b0-0')[0].style.background = '#c9f2c9'
+po=1
+for (i = 0; i < 5; i++)
+
+                {
+
+                    document.getElementsByClassName('b' + po + '-' + (i + 1))[0].style.background = '#ffffff';
+                    document.getElementsByClassName('b' + po + '-' + (i + 1))[0].innerText = '';
+                }
+}
 
 addEventListener("keydown", function(event) {
 
