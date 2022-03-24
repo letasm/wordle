@@ -16,10 +16,16 @@ word='aaa'
 
 
 tt=(document.URL)
-word2=tt.substr(tt.length-5,5)
+
+w=tt.substring(tt.indexOf('#')+1).split('-')
+console.log(tt)
+console.log(tt.indexOf('#'))
+console.log(String.fromCharCode(w[0]))
+word2=String.fromCharCode(w[0])+String.fromCharCode(w[1])+String.fromCharCode(w[2])+
+    String.fromCharCode(w[3])+String.fromCharCode(w[4])
 console.log(word2)
 
-if (word2=='rdle/')
+if (tt.indexOf('#')==-1)
 word=''
 else
 {word=word2
@@ -30,8 +36,8 @@ for (i = 0; i < 5; i++)
 
                 {
 
-                    document.getElementsByClassName('b' + po + '-' + (i + 1))[0].style.background = '#ffffff';
-                    document.getElementsByClassName('b' + po + '-' + (i + 1))[0].innerText = '';
+                    document.getElementsByClassName('b' + (po-1) + '-' + (i + 1))[0].style.background = '#ffffff';
+                    document.getElementsByClassName('b' + (po-1) + '-' + (i + 1))[0].innerText = '';
                 }
 }
 
@@ -70,6 +76,8 @@ addEventListener("keydown", function(event) {
             document.getElementsByClassName('b0-0')[0].innerText = 'СЛОВО ЗАГАДАНО'
             document.getElementsByClassName('b0-0')[0].style.background = '#c9f2c9'
             var wordd = document.querySelector('.word')
+            word=word[0].charCodeAt(0)+'-'+word[1].charCodeAt(0)+'-'+
+               word[2].charCodeAt(0)+'-'+word[3].charCodeAt(0)+'-'+word[4].charCodeAt(0)
             wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
 
 
@@ -544,6 +552,17 @@ if (po > 0 && pos == 6)
        
     pos += 1
 }
+words='ПАЛКА'
+nn=words[0].charCodeAt(0)+'-'+words[1].charCodeAt(0)+'-'+
+words[2].charCodeAt(0)+'-'+words[3].charCodeAt(0)+'-'+words[4].charCodeAt(0)
+
+
+ur='https://letasm.github.io/wordle/#'+nn
+
+
+w=ur.substring(ur.indexOf('#')+1)
+
+//split(separator, limit)
 
  // Если добавили класс whats-app-link
 
