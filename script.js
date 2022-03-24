@@ -58,6 +58,8 @@ addEventListener("keydown", function(event) {
                 document.getElementsByClassName('b0-5')[0].innerText)
             document.getElementsByClassName('b0-0')[0].innerText = 'СЛОВО ЗАГАДАНО'
             document.getElementsByClassName('b0-0')[0].style.background = '#c9f2c9'
+            var wordd = document.querySelector('.word')
+            wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
 
 
 
@@ -532,7 +534,8 @@ if (po > 0 && pos == 6)
     pos += 1
 }
 
-var wordd = document.querySelector('.word') // Если добавили класс whats-app-link
-wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
+ // Если добавили класс whats-app-link
+
+
 //wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word[0].charCodeAt(0)+'-' +word[1].charCodeAt(0)+'-'+ word[2].charCodeAt(0)+'-'+ word[3].charCodeAt(0)+'-'+ word[4].charCodeAt(0))
     
