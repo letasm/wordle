@@ -419,7 +419,7 @@ l34 = document.getElementsByClassName('l34')[0]
 l34.onclick = function(e) {
     if (po == 0 && pos == 6)
 {
-            word = (document.getElementsByClassName('b0-1')[0].innerText +
+           word = (document.getElementsByClassName('b0-1')[0].innerText +
 
                 document.getElementsByClassName('b0-2')[0].innerText +
 
@@ -430,6 +430,10 @@ l34.onclick = function(e) {
                 document.getElementsByClassName('b0-5')[0].innerText)
             document.getElementsByClassName('b0-0')[0].innerText = 'СЛОВО ЗАГАДАНО'
             document.getElementsByClassName('b0-0')[0].style.background = '#c9f2c9'
+            var wordd = document.querySelector('.word')
+            word=word[0].charCodeAt(0)+'-'+word[1].charCodeAt(0)+'-'+
+               word[2].charCodeAt(0)+'-'+word[3].charCodeAt(0)+'-'+word[4].charCodeAt(0)
+            wordd.setAttribute('href', 'https://letasm.github.io/wordle/#' + word)
 
 
 
@@ -449,6 +453,7 @@ l34.onclick = function(e) {
             }
             po += 1
             pos = 0
+    
         }
 
 
