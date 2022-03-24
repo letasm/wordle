@@ -28,7 +28,7 @@ addEventListener("keydown", function(event) {
 
 
 
-    if ((event.key == event.key.replace(/[^a-z]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
+    if ((event.key == event.key.replace(/[^a-яё]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
 
     {
         if (pos > 6)
