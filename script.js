@@ -42,10 +42,10 @@ for (i = 0; i < 5; i++)
 }
 
 addEventListener("keydown", function(event) {
+  console.log(event.keyCode,event.key,po,event.key == event.key.replace(/[^a-яё]/i, ""))
 
 
-
-    if ((event.key == event.key.replace(/[^a-яё]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
+    if ((event.key == event.key.replace(/[^а-яё]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
 
     {
         if (pos > 6)
