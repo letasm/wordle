@@ -236,6 +236,10 @@ addEventListener("keydown", function(event) {
             pass
 
         else
+          if (document.getElementsByClassName('b0-1')[0].style.background == '#e6e6fa')
+           { po=0
+            pos=1}
+
             document.getElementsByClassName('b' + po + '-' + pos)[0].innerText = event.key;
         pos += 1
 
