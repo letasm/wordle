@@ -18,9 +18,12 @@ word='aaa'
 tt=(document.URL)
 
 w=tt.substring(tt.indexOf('#')+1).split('-')
-
+console.log(tt)
+console.log(tt.indexOf('#'))
+console.log(String.fromCharCode(w[0]))
 word2=String.fromCharCode(w[0])+String.fromCharCode(w[1])+String.fromCharCode(w[2])+
     String.fromCharCode(w[3])+String.fromCharCode(w[4])
+console.log(word2)
 
 if (tt.indexOf('#')==-1)
 word=''
@@ -39,7 +42,7 @@ for (i = 0; i < 5; i++)
 }
 
 addEventListener("keydown", function(event) {
-  
+  console.log(event.keyCode,event.key,po,event.key == event.key.replace(/[^a-яё]/i, ""))
 
 
     if ((event.key == event.key.replace(/[^а-яё]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
@@ -225,29 +228,17 @@ addEventListener("keydown", function(event) {
 
 
             }
-            console.log(po,pos)
-            
-           
-           po += 1
+            po += 1
             pos = 0
-
-
         } else if (event.keyCode == 13)
             pass
 
         else
-          if (document.getElementsByClassName('b0-1')[0].style.background == '#e6e6fa')
-           { po=0
-            pos=1}
-
             document.getElementsByClassName('b' + po + '-' + pos)[0].innerText = event.key;
         pos += 1
 
     }
- if (document.getElementsByClassName('b0-1')[0].style.background == '#e6e6fa')
-               { po=0
-                pos=0
-            console.log(po,pos)}
+
 
 });
 
