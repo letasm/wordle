@@ -40,7 +40,7 @@ for (i = 0; i < 5; i++)
 }
 
 addEventListener("keydown", function(event) {
-    if (po==7 )
+    if (po==7 ||   document.getElementsByClassName('b' + po + '-1')[0].style.background == '#c9f2c9' )
         po=0
 
 
