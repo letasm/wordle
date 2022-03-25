@@ -40,7 +40,15 @@ for (i = 0; i < 5; i++)
 }
 
 addEventListener("keydown", function(event) {
-    if (po==7 ||   document.getElementsByClassName('b' + po + '-1')[0].style.background == '#c9f2c9' )
+    if (po==7 ||   
+        (
+            document.getElementsByClassName('b' + po + '-1')[0].style.background == '#c9f2c9'&&
+            document.getElementsByClassName('b' + po + '-2')[0].style.background == '#c9f2c9'&&
+            document.getElementsByClassName('b' + po + '-3')[0].style.background == '#c9f2c9'&&
+            document.getElementsByClassName('b' + po + '-4')[0].style.background == '#c9f2c9'&&
+            document.getElementsByClassName('b' + po + '-5')[0].style.background == '#c9f2c9'
+           )
+             )
         po=0
 
 
