@@ -18,9 +18,7 @@ word='aaa'
 tt=(document.URL)
 
 w=tt.substring(tt.indexOf('#')+1).split('-')
-console.log(tt)
-console.log(tt.indexOf('#'))
-console.log(String.fromCharCode(w[0]))
+
 word2=String.fromCharCode(w[0])+String.fromCharCode(w[1])+String.fromCharCode(w[2])+
     String.fromCharCode(w[3])+String.fromCharCode(w[4])
 console.log(word2)
@@ -42,7 +40,8 @@ for (i = 0; i < 5; i++)
 }
 
 addEventListener("keydown", function(event) {
-  console.log(event.keyCode,event.key,po,event.key == event.key.replace(/[^a-яё]/i, ""))
+    if (po==7 )
+        po=0
 
 
     if ((event.key == event.key.replace(/[^а-яё]/i, "") || event.keyCode == 8 || event.keyCode == 13) && po == 0)
@@ -180,8 +179,6 @@ addEventListener("keydown", function(event) {
 
                             document.getElementsByClassName('l' + l)[0].style.background = '#ededed';
 
-                            
-
                         }
 
 
@@ -193,40 +190,18 @@ addEventListener("keydown", function(event) {
 
                         {
                            
-
                             document.getElementsByClassName('l' + l)[0].style.background = '#ffed94';
 
-                            
-
                         }
-
-
                         if (document.getElementsByClassName('b' + po + '-' + (i + 1))[0].innerText == document.getElementsByClassName('l' + l)[0].innerText &&
                             document.getElementsByClassName('b' + po + '-' + (i + 1))[0].innerText == word[i]
                         )
 
                         {
-                            
-
                             document.getElementsByClassName('l' + l)[0].style.background = '#c9f2c9';
-
-                           
-
                         }
-                   
-
                     }
-                  
-                   //if (po==6 &&pos == 6 && event.keyCode == 13)
-                    //po=0
-                    
-
-
                 }
-
-
-
-
             }
             po += 1
             pos = 0
@@ -417,6 +392,8 @@ l33.onclick = function(e) {
 
 l34 = document.getElementsByClassName('l34')[0]
 l34.onclick = function(e) {
+     if (po==7 )
+        po=0
     if (po == 0 && pos == 6)
 {
            word = (document.getElementsByClassName('b0-1')[0].innerText +
